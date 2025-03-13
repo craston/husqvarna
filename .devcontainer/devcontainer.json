@@ -35,7 +35,8 @@
 		"vscode": {
 			"extensions": [
 				"mechatroner.rainbow-csv",
-				"ms-toolsai.jupyter"
+				"ms-toolsai.jupyter",
+				"charliermarsh.ruff"
 			]
 		}
 	}
