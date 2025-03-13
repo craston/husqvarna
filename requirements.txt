@@ -1,3 +1,5 @@
 ydata-profiling
 setuptools
 ipykernel
+scikit-learn
+typer
