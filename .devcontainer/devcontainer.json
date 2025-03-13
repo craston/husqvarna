@@ -27,7 +27,9 @@
 	// "remoteUser": "root"
 
 	"mounts": [
-		"source=devcontainer-bashhistory,target=/commandhistory,type=volume"
+		"source=devcontainer-bashhistory,target=/commandhistory,type=volume",
+		"source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
+	
 	],
 	"customizations": {
 		"vscode": {
