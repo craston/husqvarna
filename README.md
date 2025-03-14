@@ -8,6 +8,8 @@ One of the first things to notice is the high imbalance in the dataset.
 
 Considering this extreme imbalance where malfunction data points is ~0.0008 times of the entire data samples, I will treat this problem as anomaly detection rather than a binary classification problem. Since we have 106 points for malfunction using binary classification will make it very difficult for the model to learn discriminative features for this class.
 
+See [report](docs/report.html).
+
 ### Feature Engineering
 ### Skewed (Sparse)
 For 5 of features, over 90% of the values are zero. 
