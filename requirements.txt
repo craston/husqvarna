@@ -3,3 +3,4 @@ setuptools
 ipykernel
 scikit-learn
 typer
+torch
